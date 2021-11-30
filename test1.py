@@ -21,7 +21,7 @@ fig2 = Figure(figsize=(5,4),dpi =100)
 ax = fig.add_subplot(111)
 line, = ax.plot(x,y,'g-')
 
-
+#komentarz komentarz1111111111111111111111111111111111111111111
 canvas = FigureCanvasTkAgg(fig,master = root)
 canvas.draw()
 canvas.get_tk_widget().pack(side=tkinter.TOP,fill=tkinter.BOTH,expand=1)
@@ -30,7 +30,7 @@ def animate(i):
     line2.set_ydata(np.sin(x2+i/z))
     return line2,
 
-
+#komenatarz komentarz 11111111111111111111111111111111111111111
 canvas2 = FigureCanvasTkAgg(fig2,master = root)
 canvas2.get_tk_widget().pack(side=tkinter.BOTTOM)
 
